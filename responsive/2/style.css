@@ -88,7 +88,36 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-  #contents {
-    background-color: blue;
+  html {
+    /*background: url(images/12_col.jpg) repeat-y top center;*/
   }
+  #contents {
+    width: 93.75%; /* 960 / 1024 */
+    overflow: hidden;
+  }
+
+  #contents #main, #contents #sub {
+    float: left;
+    margin: 0 1.0416667%; /* 10 / 960 */
+  }
+
+  #contents #main {
+    width: 64.5833333%; /* 620 / 960 */
+  }
+
+  #contents #sub {
+    width: 31.25%; /* 300 / 960 */
+  }
+
+  nav ul {
+    width: 93.75%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 93.75%;
+    padding: 24px 0;
+    margin: 0 auto;
+  }
+
 }
