@@ -1,0 +1,1 @@
+<p><small>2016 © Kenichi All Rights Reserved.</small></p>

@@ -1,0 +1,13 @@
+@charset "utf8";
+
+* { margin: 0; padding: 0; }
+
+header, footer, #contents {
+	width: 93.75%;
+	margin: 0 auto;
+}
+
+#contents {
+	
+}
+
