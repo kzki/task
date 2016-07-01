@@ -2,12 +2,43 @@
 
 * { margin: 0; padding: 0; }
 
+body {
+	background-color: #2F4127;
+}
+
 header, footer, #contents {
 	width: 93.75%;
 	margin: 0 auto;
 }
 
+header {
+width: 100%;
+	background-image: url(../images/head.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	background-position: 50% 75%;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+header h1 {
+	color: #3F502D;
+	display: table-cell;
+	vertical-align: middle;
+	height: inherit;
+}
+
+footer {
+	text-align: center;
+}
+
 #contents {
-	
+	padding: 20px;
+	color: white;
+}
+
+#contents a, #contents a:visited, #contents article a {
+	color: white;
 }
 

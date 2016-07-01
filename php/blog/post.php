@@ -1,5 +1,12 @@
 <?php require "utils.php"; ?>
 <?php
+	// 編集と新規作成の判定
+	$mode = 'new';
+	if (isset($_POST['type']) and $_POST['type'] == 'edit'){
+		$mode = 'edit';
+		$id = $_POST['id'];
+	}
+
 	if (!isset($_POST['title']) or !isset($_POST['contents'])) {
 		$error = "タイトルと内容を設定してください";
 	} else if(empty($_POST['title']) or empty($_POST['contents'])) {
@@ -7,12 +14,25 @@
 	} else {
 		$title = $_POST['title'];
 		$contents = $_POST['contents'];
-		$sql = "insert into posts 
-			(title, contents, created, updated)
-			values (?, ?, current_timestamp, current_timestamp)
-		";
+
+		if ($mode == 'edit'){
+
+
+			$sql = "update posts set title = ?, contents = ?
+				, image_name = ?, image_path = ?, updated = current_timestamp where id = ?";
+			$params = array($title, $contents, $image_name, $image_path, $id);
+
+
+		} else {
+			$sql = "insert into posts
+				(title, contents, created, updated)
+				values (?, ?, current_timestamp, current_timestamp)
+			";
+			$params = array($title, $contents);
+		}
+
 		$st = $db->prepare($sql);
-		$success = $st->execute(array($title, $contents));
+		$success = $st->execute($params);
 	}
 	if (isset($error)) {
 		$page_title = "エラー！！！！！！！";
@@ -34,7 +54,10 @@
 	<div id="contents">
 		<?php if (isset($error)) : ?>
 			<p><?php echo $error; ?></p>
-			<a href="new.php">記事作成画面に戻る</a>
+			<?php if ($mode == 'edit') : ?>
+			<?php else: ?>
+				<a href="new.php">記事作成画面に戻る</a>
+			<?php endif; ?>
 		<?php endif; ?>
 		<a href="index.php">TOPに戻る</a>
 	</div>
