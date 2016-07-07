@@ -1,23 +1,14 @@
 <?php require 'utils.php'; ?>
 <?php
-	if (!isset($_REQUEST['id']) or empty($_REQUEST['id'])) {
+	if (is_empty($_REQUEST, 'id')) {
 		$error = "idが指定されていません";
 	} else {
 		$id = $_REQUEST['id'];
 
-		$select_sql = "select count(*) as count from posts where id = ${id}";
-		$st = $db->query($select_sql);
-		$count = 0;
-		foreach($st as $row) {
-			$count += $row['count'];
-		}
-
-		if ($count <= 0) {
+		if (!is_exist($id)) {
 			$error = "指定した記事がありません";
 		} else {
-			$sql = "delete from posts where id = ?";
-			$st = $db->prepare($sql);
-			$success = $st->execute(array($id));
+			delete_post($id);
 		}
 	}
 	if (isset($error)) {

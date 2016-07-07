@@ -1,4 +1,5 @@
 <?php require 'utils.php'; ?>
+<?php $page_title = "新規作成"; ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,11 +9,12 @@
 </head>
 <body>
 	<header>
-		<h1>記事新規作成</h1>
+		<?php include 'parts/header.php' ?>
 	</header>
 	<div id="contents">
 		<article>
-			<form action="post.php" method="post" name="form">
+			<form action="post.php" method="post" name="form" 
+			enctype="multipart/form-data">
 				<div>
 					<label for="title">
 						タイトル
@@ -23,6 +25,12 @@
 					<label for="contents">
 						内容
 						<textarea name="contents" id="" cols="30" rows="10"></textarea>
+					</label>
+				</div>
+				<div>
+					<label for="image">
+						画像
+						<input type="file" name="image">
 					</label>
 				</div>
 				<div>

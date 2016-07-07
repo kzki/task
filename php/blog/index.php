@@ -1,24 +1,11 @@
 <?php require 'utils.php'; ?>
 <?php
-	$offset = 0;
+	$page_title = "ブログトップページ";
+	$offset = get_offset();
 	$limit = 5;
-	if (isset($_GET['offset']) and !empty($_GET['offset'])) {
-		$offset = $_GET['offset'];
-	}
-
-	$st_count = $db->query("select count(*) as count from posts");
-	$row = $st_count->fetch();
-	$count = $row['count'];
-
-	$stmt = $db->query("select * from posts 
+	$count = get_posts_count();
+	$stmt = get_db()->query("select * from posts 
 			order by updated desc limit ${limit} offset ${offset}");
-
-
-	$prev_offset = $offset - $limit;
-	if ($prev_offset <= 0) {
-		$prev_offset = 0;
-	}
-	$next_offset = $offset + $limit;
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -29,18 +16,18 @@
 </head>
 <body>
 	<header>
-		<h1>ブログトップページ</h1>
+		<?php include 'parts/header.php'; ?>
 	</header>
 	<div id="contents">
 		<div class="pager">
 			<?php if ($offset > 0) : ?> 
-				<a href="?offset=<?php echo $prev_offset; ?>">
-					<
+				<a href="?offset=<?php echo get_prev_offset($limit); ?>">
+					前へ
 				</a>
 			<?php endif; ?>
 			<?php if ($offset + $limit < $count) : ?>
-				<a href="?offset=<?php echo $next_offset; ?>">
-					>
+				<a href="?offset=<?php echo get_next_offset($limit); ?>">
+					次へ
 				</a>
 			<?php endif; ?>
 			<p>総件数: <?php echo $count; ?></p>

@@ -1,0 +1,851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"bacgkrou",
+				"background-color"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"cha",
+				"fromCharCode"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"la",
+				"large"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"en",
+				"encodeURI"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"peo",
+				"peoples"
+			],
+			[
+				"re",
+				"removeChild"
+			],
+			[
+				"pe",
+				"people"
+			],
+			[
+				"ad",
+				"addEventListener"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog/show.php",
+			"settings":
+			{
+				"buffer_size": 924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "			$image = $_FILES['image'];\n\n			@mkdir (\"uploads/${id}\", 0777, true);\n			$image_name = $image['name'];\n			$image_path = \"uploads/${id}/${image_name}\";\n			move_uploaded_file($image['tmp_name'], $image_path);\n\n			alter table posts ",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/post.php",
+			"settings":
+			{
+				"buffer_size": 1427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/new.php",
+			"settings":
+			{
+				"buffer_size": 915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/edit.php",
+			"settings":
+			{
+				"buffer_size": 1501,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/delete.php",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/utils.php",
+			"settings":
+			{
+				"buffer_size": 2198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kenichi/Documents/acthouse/lecture/parallax/kinetics.js",
+			"settings":
+			{
+				"buffer_size": 3848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/css/style.css",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"je",
+				"Jekyll: Edit _config.yml"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"jek",
+				"Jekyll: Edit _config.yml"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"ene",
+				"Emmet: Next Edit Point"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kenichi/Documents/acthouse/lecture",
+		"/Users/kenichi/Documents/acthouse/lecture/parallax",
+		"/Users/kenichi/Documents/acthouse/lecture/php"
+	],
+	"file_history":
+	[
+		"/Users/kenichi/Documents/acthouse/task/php/untitled.sublime-project",
+		"/Users/kenichi/Documents/acthouse/task/php/blog/index.php",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kenichi/Documents/acthouse/task/php/db.php",
+		"/Users/kenichi/Documents/acthouse/task/php/blog/delete.php",
+		"/Users/kenichi/Documents/acthouse/lecture/vim-tips.md",
+		"/Users/kenichi/Documents/acthouse/task/php/blog/parts/footer.php",
+		"/Users/kenichi/Documents/acthouse/lecture/php/create-blog.md",
+		"/Users/kenichi/Documents/acthouse/lecture/php/php-basic.md",
+		"/Users/kenichi/Documents/acthouse/lecture/html/access.html",
+		"/Users/kenichi/Documents/acthouse/lecture/html/book.html",
+		"/Users/kenichi/Documents/acthouse/lecture/html/list.html",
+		"/Users/kenichi/Documents/acthouse/lecture/html/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/html/style.css",
+		"/Users/kenichi/Documents/acthouse/task/php/phpinfo.php",
+		"/Users/kenichi/Documents/acthouse/task/php/index.php",
+		"/Users/kenichi/Documents/blog/tmpla.github.io/css/font-awesome.min.css",
+		"/Users/kenichi/Documents/blog/tmpla.github.io/_layouts/index.html",
+		"/Users/kenichi/Documents/blog/tmpla.github.io/_posts/2009-07-15-%83X%83p%83%80%97%88%82%BD%82Ȃ%9F-.html",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+		"/Users/kenichi/Documents/blog/tmpla.github.io/_config.yml",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414.info",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Installed Packages/0_package_control_loader.sublime-package",
+		"/Users/kenichi/Documents/acthouse/task/html/style-orig.css",
+		"/Users/kenichi/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kenichi/Documents/acthouse/lecture/responsive/how-to-make-responsive.md",
+		"/Users/kenichi/Documents/acthouse/lecture/html/html-basic.md",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-dom.md",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/jquery-2.2.4.js",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_2/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_2/script.js",
+		"/Users/kenichi/Dropbox/AAA/2015-08 リンナイ/APITest用(テストサーバー).html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/527_2/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/527_2/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_1/calc.html",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_1/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_1/calc.js",
+		"/Users/kenichi/Documents/acthouse/lecture/jquery/527_1/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/527_1/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/527_1/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526_2/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526_2/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526_1/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/526_1/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/525_2/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/525_2/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/525_1/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/525_1/script.js",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/0524/index.html",
+		"/Users/kenichi/Documents/acthouse/lecture/javascript-basic/0524/script.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"記事編集",
+			"limit",
+			"about",
+			"ignore",
+			"$('#result').text(",
+			"easing",
+			"click"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog/show.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/kenichi/Documents/acthouse/task",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blog/post.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 237.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog/new.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "blog/edit.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "blog/delete.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "blog/utils.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2030,
+								2030
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1076.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/kenichi/Documents/acthouse/lecture/parallax/kinetics.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 693.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "blog/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.631834291259,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"224":
+				{
+					"group": 0,
+					"index": 10
+				},
+				"70":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"71":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"72":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"73":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"74":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"75":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"76":
+				{
+					"group": 0,
+					"index": 6
+				},
+				"77":
+				{
+					"group": 0,
+					"index": 7
+				},
+				"78":
+				{
+					"group": 0,
+					"index": 8
+				},
+				"79":
+				{
+					"group": 0,
+					"index": 9
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.631834291259,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

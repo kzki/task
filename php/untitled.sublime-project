@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/kenichi/Documents/acthouse/task"
+		},
+		{
+			"path": "/Users/kenichi/Documents/acthouse/lecture"
+		}
+	],
+	"settings": {
+		"xdebug": {
+			"url": "http://192.168.33.10/blog/index.php",
+			"super_globals": true,
+    	"close_on_stop": true
+		}
+	}
+}

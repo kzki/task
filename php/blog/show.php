@@ -32,8 +32,9 @@
 			 <p><?php echo $post['created']; ?></p>
 			 <p><?php echo $post['updated']; ?></p>
 			 <p><?php echo $post['contents']; ?></p>
+			 <img src="image.php?id=<?php echo $id; ?>" alt="" style="max-width: 300px;">
 			<?php } ?>
-		</article>
+		</article>	
 		<p><a href="/blog">TOPへ戻る</a></p>
 	</div>
 	<footer>
