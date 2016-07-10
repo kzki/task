@@ -1,0 +1,352 @@
+# Translation of Academica in Japanese
+# This file is distributed under the same license as the Academica package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-30 02:14:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Academica\n"
+
+#. Theme Name of the plugin/theme
+msgid "Academica"
+msgstr "Academica"
+
+#. Description of the plugin/theme
+msgid "Academica is an education- and school-oriented CMS theme with a three-column layout and modern design. It is easy to customize and comes with a custom widget, three templates for Posts and Pages."
+msgstr "Academica は、3カラムレイアウトと現代的なデザインの教育または学校向け CMS テーマです。簡単にカスタマイズでき、カスタムウィジェット、投稿やページ向けのテンプレート3種類が含まれています。"
+
+#. Template Name of the plugin/theme
+msgid "Sidebar Left"
+msgstr "サイドバー左"
+
+#. Template Name of the plugin/theme
+msgid "Sidebar Right"
+msgstr "サイドバー右"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "全幅"
+
+#: single.php:30
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:29
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:7 searchform.php:8 searchform.php:9
+msgid "Search"
+msgstr "検索"
+
+#: search.php:30
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: search.php:12
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/wpzoom-widgets.php:157
+msgid "Image grid"
+msgstr "画像グリッド"
+
+#: index.php:25
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "一致する結果がありませんでした。検索してみると、関連投稿が見つかるかもしれません。"
+
+#: inc/wpzoom-widgets.php:150
+msgid "Display as:"
+msgstr "表示形式:"
+
+#: inc/wpzoom-widgets.php:153
+msgid "Image list"
+msgstr "一覧から選ぶ"
+
+#: inc/widgets.php:129 inc/wpzoom-widgets.php:134
+msgid "Choose category:"
+msgstr "カテゴリーを選択:"
+
+#: inc/widgets.php:131 inc/wpzoom-widgets.php:136
+msgid "- Recent in all categories -"
+msgstr "- 全カテゴリの最近の投稿 -"
+
+#: inc/widgets.php:141 inc/wpzoom-widgets.php:146
+msgid "Number of posts to show:"
+msgstr "表示する投稿数:"
+
+#: inc/customizer/bootstrap.php:79
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/widgets.php:52 inc/wpzoom-widgets.php:54
+msgctxt "Widget title link"
+msgid "%s &raquo;"
+msgstr "%s &raquo;"
+
+#: inc/widgets.php:125 inc/wpzoom-widgets.php:130
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/customizer/bootstrap.php:97
+msgid "Header Background Color"
+msgstr "ヘッダーの背景色"
+
+#: inc/customizer/bootstrap.php:65
+msgid "Logo Position"
+msgstr "ロゴの表示位置"
+
+#: inc/customizer/bootstrap.php:80
+msgid "File must be <strong>.png</strong> or <strong>.ico</strong> format. Optimal dimensions: <strong>32px x 32px</strong>."
+msgstr "ファイルは <strong>.png</strong> または <strong>.ico</strong> 形式の必要があります。最適サイズ: <strong>32px x 32px</strong>"
+
+#: inc/customizer/bootstrap.php:63
+msgid "Right"
+msgstr "右"
+
+#: inc/customizer/bootstrap.php:62
+msgid "Center"
+msgstr "中央"
+
+#: inc/customizer/bootstrap.php:21 inc/customizer/bootstrap.php:34
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customizer/bootstrap.php:61
+msgid "Left"
+msgstr "左"
+
+#: inc/customizer/bootstrap.php:48
+msgid "Retina Ready?"
+msgstr "Retina 対応 ?"
+
+#: image.php:96
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: functions.php:518
+msgid "Posts tagged &#39;%s&#39;"
+msgstr "「%s」タグがついた投稿"
+
+#: functions.php:522
+msgid "Articles posted by %s"
+msgstr "%s の投稿"
+
+#: functions.php:525
+msgid "Error 404"
+msgstr "404 エラー"
+
+#: functions.php:515
+msgid "Search results for &#39;%s&#39;"
+msgstr "検索結果: %s"
+
+#: image.php:83
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"コメントを投稿\">コメントを投稿</a>するか、トラックバックを送信できます: <a class=\"trackback-link\" href=\"%s\" title=\"この投稿のトラックバック URL\" rel=\"trackback\">トラックバック URL</a>"
+
+#: image.php:71
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>."
+msgstr "投稿日: <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%7$s</a>."
+
+#: image.php:85
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "現在コメントは受け付けていませんが、トラックバックを送信できます: <a class=\"trackback-link\" href=\"%s\" title=\"あなたの投稿用のトラックバック URL\" rel=\"trackback\">トラックバック URL</a>"
+
+#: image.php:89
+msgid "Both comments and trackbacks are currently closed."
+msgstr "コメント・トラックバックは受け付けていません。"
+
+#: image.php:87
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "現在トラックバックは受け付けていませんが、<a class=\"comment-link\" href=\"#respond\" title=\"コメントを投稿\">コメントを投稿</a>できます。"
+
+#: image.php:95
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: functions.php:540
+msgid "Powered by <a href=\"%s\">WordPress</a> / Academica WordPress Theme by <a href=\"%s\">WPZOOM</a>"
+msgstr "Powered by <a href=\"%s\">WordPress</a> / Academica WordPress Theme by <a href=\"%s\">WPZOOM</a>"
+
+#: functions.php:413
+msgid "Only Left Sidebar"
+msgstr "左サイドバーのみ"
+
+#: functions.php:417
+msgid "Full Width (no sidebars)"
+msgstr "幅広 (サイドバーなし)"
+
+#: functions.php:458
+msgid "Home"
+msgstr "ホーム"
+
+#: functions.php:391
+msgid "Post Layout"
+msgstr "投稿レイアウト"
+
+#: functions.php:405
+msgid "Choose layout for this post:"
+msgstr "この投稿のレイアウトを選択:"
+
+#: functions.php:409
+msgid "Default"
+msgstr "デフォルト"
+
+#: functions.php:379
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:378
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#. Translators: 1 is the author's name, 2 is category, and 3 is the date.
+#: functions.php:350
+msgid "<span class=\"by-author\">By %1$s </span>in <span class=\"category\">%2$s</span> on <span class=\"datetime\">%3$s</span>."
+msgstr "<span class=\"by-author\">投稿者: %1$s </span>in <span class=\"category\">%2$s</span> 投稿日: <span class=\"datetime\">%3$s</span>."
+
+#: functions.php:352
+msgid "<span class=\"by-author\">By %1$s </span>on <span class=\"datetime\">%3$s</span>."
+msgstr "<span class=\"by-author\">投稿者: %1$s </span>投稿日: <span class=\"datetime\">%3$s</span>"
+
+#: functions.php:376
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: functions.php:344
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:333
+msgid ", "
+msgstr ", "
+
+#: functions.php:230
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:123
+msgid "Start here"
+msgstr "ここからスタート"
+
+#: functions.php:195 functions.php:529
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:82
+msgid "Sidebar: Left"
+msgstr "サイドバー: 左"
+
+#: functions.php:91
+msgid "Sidebar: Right"
+msgstr "サイドバー: 右"
+
+#: functions.php:25
+msgid "Top Menu"
+msgstr "トップメニュー"
+
+#: functions.php:26
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: functions.php:100
+msgid "Footer"
+msgstr "フッター"
+
+#: content.php:16 inc/widgets.php:74 inc/wpzoom-widgets.php:75
+msgid "Permanent Link to %s"
+msgstr "%s のパーマリンク"
+
+#: content-single.php:13
+msgid "Tags:"
+msgstr "タグ:"
+
+#: content-page.php:23 content-single.php:15 content.php:24 image.php:91
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:17 content-single.php:22 image.php:64
+msgid "Pages:"
+msgstr "ページ:"
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:15 content.php:21 functions.php:220
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: archive.php:56
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:32
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:29
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:26
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:23
+msgid "Author Archives: %s"
+msgstr "作成者別アーカイブ: %s"
+
+#: archive.php:19
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ: %s"
+
+#: archive.php:16
+msgid "Category Archives: %s"
+msgstr "カテゴリー別アーカイブ: %s"
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:28
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.wpzoom.com/themes/academica/"
+msgstr "http://www.wpzoom.com/themes/academica/"
+
+#. Author of the plugin/theme
+msgid "WPZOOM"
+msgstr "WPZOOM"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpzoom.com/"
+msgstr "http://www.wpzoom.com/"
