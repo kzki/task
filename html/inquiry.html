@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>17歳で日本をでてみた</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header id="header" class="">
+		<div class="header-inner">
+			<h1><a href="index.html">17歳で日本をでてみた</a></h1>
+			<p>
+				17歳、高校三年の時に”トビタテ！留学JAPAN”という奨学金システムを使って世界へ。
+			</p>	
+			<p>
+				「なにそれ？」「え、高校生なのに留学？」「留学に興味はあるけど不安だ。」
+			</p>
+			<p>
+				実際に行動に移すまでは僕もそんなことを思っていました。
+			</p>
+		</div>
+		<ul class="nav">
+			<li class="first"><a href="index.html">HOME</a></li>
+			<li>お問い合わせ</li>
+			<li><a href="about.html">自己紹介</a></li>	
+			<li><a href="">リンク</a></li>
+		</ul>
+	</header>
+	<br>
+
+	<div>
+		<article>
+			<form action="" method="post">
+				<div class="form-group">
+					<label for="">タイトル</label>
+					<div class="form-control">
+						<input type="text" name="title" value="" placeholder="タイトルを入力してください" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">お問い合わせ内容</label>
+					<div class="form-control">
+						<textarea name="content"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">性別</label>
+					<div class="form-control">
+						<input type="radio" name="gender" value="男">男
+						<input type="radio" name="gender" value="女">女
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">このページを何で知りましたか？</label>
+					<div class="form-control">
+						<input type="checkbox" name="how[0]" value="true">インターネット
+						<input type="checkbox" name="how[1]" value="true">新聞
+						<input type="checkbox" name="how[2]" value="true">テレビ
+						<input type="checkbox" name="how[3]" value="true">雑誌
+						<input type="checkbox" name="how[4]" value="true">友人の紹介
+						<input type="checkbox" name="how[5]" value="true">その他
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">どこにお住まいですか？</label>
+					<div class="form-control">
+						<select name="pref">
+							<optgroup label="関東">
+								<option value="東京">東京</option>
+								<option value="千葉">千葉</option>
+								<option value="神奈川">神奈川</option>
+								<option value="埼玉">埼玉</option>
+							</optgroup>
+							<optgroup label="関西">
+								<option value="大阪">大阪</option>
+								<option value="兵庫">兵庫</option>
+								<option value="京都">京都</option>
+								<option value="滋賀">滋賀</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">あなたの写真を送ってください</label>
+					<div class="form-control">
+						<input type="file" name="photo">
+					</div>		
+				</div>
+				<div class="form-group">
+					<input type="submit" value="送信する">
+				</div>
+			</form>
+		</article>
+	</div>
+
+<footer>
+	2016 Kazuki Akasaka ©All Rights Reserved
+</footer>
+</body>
+</html>		

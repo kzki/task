@@ -1,0 +1,188 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+header{
+	background-image: url("images/umi.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header>div.header-inner{
+	text-align: center;
+	/*background-color: white;	*/
+	color: black;
+}
+
+ul.nav > li{
+	display: inline;
+	border-right: 1px solid black;
+	font-size: 12pt;
+	padding: 0 5px;
+}
+
+ul.nav{
+	background-color: skyblue;	
+	font-size: 0;
+	color: white;
+	text-align: center;
+}
+
+ul.nav >li:visited{
+	color: white;
+}
+
+ul.nav >.first{
+	border-left: 1px solid black;
+}
+
+body{
+	/*background-image: url("images/haikei.jpg")*/
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: gold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:active{
+	color: white;
+}
+
+a:focus{
+	border: 1px solid;
+}
+
+h1 > a:visited{
+	color: skyblue;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+h1{
+	text-shadow: 3px 3px 2px gray;
+}
+
+h2{
+	color: skyblue;
+}
+
+article,aside{
+	background-color: floralwhite;
+	box-shadow: 3px 3px 2px gray;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,e9e9ce+100;Wax+3D+%232 */
+	background: #fcfff4; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #fcfff4 0%, #e9e9ce 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #fcfff4 0%,#e9e9ce 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #fcfff4 0%,#e9e9ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+article > .content{
+	float: left;
+}
+
+article > figure > img{
+	width: 100%;
+}
+
+article > figure{
+	width: 30%;
+	float: right;
+}
+
+div{
+	width: 65%;
+	margin: 0 auto;
+}
+
+div > article.about{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+table{
+	border: 1px solid gray;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table td{
+	padding: 10px;
+}
+
+table td,table,th{
+	border: 1px solid gray;
+}
+
+table tbody >tr:nth-child(odd){
+	background-color: lightskyblue;
+}
+
+table tbody >tr:nth-child(even){
+	background-color: white;
+}
+
+.form-group{
+	margin-bottom: 12px;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+
+.form-group label{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.form-group .form-control{
+	width: 50%;
+	float: left;
+	margin-left: 2%;
+}
+
+.form-group .form-control input[type=text]{
+	width: 100%;
+	height: 2em;
+	padding-left: 1em;
+	border-radius: 2px;
+}
+
+.form-group .form-control textarea{
+	width: 100%;
+	height: 30vh;
+	padding: 1em;
+}
+
+.form-group .form-control input[type=radio]
+.form-group .form-control input[type=checkbox]
+{
+	margin: 0.5px;
+}
+
+footer{
+	background-color: dodgerblue;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
